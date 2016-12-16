@@ -1,6 +1,6 @@
 {
-    "name": "ourgarage/blog",
-    "description": "Package Blog for Engin CMS",
+    "name": "ourgarage/price",
+    "description": "Package Price for Engin CMS",
     "type": "package",
     "license": "MIT",
     "authors": [
@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Ourgarage\\Blog\\": "src/"
+            "Ourgarage\\Price\\": "src/"
         }
     }
 }
