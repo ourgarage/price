@@ -1,6 +1,6 @@
 <?php
 
-namespace Ourgarage\Http\Controllers\Admin;
+namespace Ourgarage\Price\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;

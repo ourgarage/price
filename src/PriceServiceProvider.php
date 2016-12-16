@@ -33,7 +33,7 @@ class PriceServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Ourgarage\Blog\Http\Controllers\Admin\PriceController');
+        $this->app->make('Ourgarage\Price\Http\Controllers\Admin\PriceController');
 
         $this->mergeConfigFrom(__DIR__.'/config/price.php', 'packages');
     }
